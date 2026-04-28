@@ -1,0 +1,87 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #f4f7f4;
+    color: #1f3d2b;
+  }
+  
+  header {
+    text-align: center;
+    background: #0b3d2e;
+    color: white;
+    padding: 30px 15px;
+  }
+  
+  main {
+    width: 90%;
+    max-width: 800px;
+    margin: 30px auto;
+  }
+  
+  .card {
+    background: white;
+    padding: 25px;
+    margin-bottom: 20px;
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  }
+  
+  select, button {
+    padding: 10px;
+    margin-top: 10px;
+    font-size: 16px;
+  }
+  
+  button {
+    background: #0b3d2e;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    margin-left: 10px;
+  }
+  
+  button:hover {
+    background: #959796;
+  }
+  
+  .result {
+    min-height: 150px;
+  }
+  
+  #surahText {
+    line-height: 1.8;
+    font-size: 18px;
+  }
+  
+  footer {
+    text-align: center;
+    padding: 15px;
+    background: #0b3d2e;
+    color: white;
+  }
+  .ayah-card {
+    border-bottom: 1px solid #ddd;
+    padding: 18px 0;
+  }
+  
+  .arabic {
+    direction: rtl;
+    text-align: right;
+    font-size: 24px;
+    line-height: 2.2;
+    color: #063b2b;
+  }
+  
+  .english {
+    direction: ltr;
+    text-align: left;
+    font-size: 17px;
+    line-height: 1.8;
+    color: #333;
+  }
+  .ayah-number {
+    font-size: 16px;
+    color: #888;
+    margin-right: 8px;
+  }

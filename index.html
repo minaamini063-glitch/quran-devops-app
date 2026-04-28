@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Qur'an Web App</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>Qur'an Web App</h1>
+    <p>A simple web application built for a DevOps final project</p>
+  </header>
+
+  <main>
+    <section class="card">
+      <h2>Select a Surah</h2>
+
+      <select id="surahSelect">
+        <option value="">Loading Surahs...</option>
+      </select>
+      
+      <button onclick="showSurah()">Show Surah</button>
+
+      </select>
+
+
+    <section class="card result">
+      <h2 id="surahTitle">Surah will appear here</h2>
+      <p id="surahText">Please choose a Surah from the list.</p>
+    </section>
+  </main>
+
+  <footer>
+    <p>DevOps Project | Git | Docker | CI/CD | Terraform</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
